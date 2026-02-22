@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitch Network</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+        *{
+            font-family: Inter;
+        }
+
+        body {
+            background: linear-gradient(to top, rgb(58, 117, 204), rgb(86, 222, 240));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+
+        .menu{
+            position: fixed;
+            top: 15px;
+            left: calc(25% - 20px);
+            width: 50%;
+            padding: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            align-items: center; 
+            border-radius: 15px;
+            background-color: rgb(0, 0, 0, 0.7);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+            text-align: center;
+            line-height: 10px;
+        }
+
+        .menu img{
+            position: absolute;
+            top: 5px;
+            left: 0;
+            width: 40px;
+            height: 40px;
+        }
+
+        center div{
+            width: 50%;
+            padding: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            align-items: center; 
+            border-radius: 15px;
+            background-color: rgb(0, 0, 0, 0.7);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+            text-align: center;
+            line-height: 10px;
+        }
+
+        a {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <img onclick="window.location='index.html'" src="./logo.png">
+        <div style="float: right;">
+            <span style="user-select: none; cursor: pointer;" onclick="window.location='games.html'">Games</span>
+            <span>/</span>
+            <span style="user-select: none; cursor: pointer;" onclick="window.location='chat.html'">Chat</span>
+            <span>/</span>
+            <span style="user-select: none; cursor: pointer;" onclick="window.location='links.html'">Links</span>
+        </div>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <center>
+            <div>
+                <h4>Glitch links</h4>
+                <hr>
+                None yet...
+                <br>
+                <h4>Axiom links</h4>
+                <hr>
+                <a href="https://showtime.readywintersprings.org/" target="_blank">https://showtime.readywintersprings.org/</a>
+            </div>
+        </center>
+    </div>
+    <script src="./scripts/global.js"></script>
+</body>
+</html>
