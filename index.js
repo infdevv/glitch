@@ -70,7 +70,7 @@ process.on("unhandledRejection", (reason, promise) => {
   console.error("Unhandled Rejection at:", promise, "reason:", reason);
 });
 
-const port = process.env.port || 2010;
+const port = process.env.port || 8085;
 
 server.listen({ port: port, host: "0.0.0.0" }).then(function () {
   console.log("AXIOM started!");
